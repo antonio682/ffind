@@ -1,0 +1,36 @@
+{
+  "name": "findfun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npm install --save react react-dom",
+  "scripts": {
+    "test": "ç"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonio682/findfun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonio682/findfun/issues"
+  },
+  "homepage": "https://github.com/antonio682/findfun#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1"
+  }
+}

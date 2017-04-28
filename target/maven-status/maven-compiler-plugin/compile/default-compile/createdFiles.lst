@@ -1,0 +1,4 @@
+com\findfun\Application.class
+com\findfun\services\ScrappingService.class
+com\findfun\controllers\Api\v1\ScrappingRESTApiController.class
+com\findfun\controllers\HomeController.class
