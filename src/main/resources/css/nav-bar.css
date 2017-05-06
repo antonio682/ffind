@@ -1,0 +1,119 @@
+/* FAFC MAIN NAV BAR STYLES*/
+.navbar-custom-style {
+    background-color: rgba(68,66,63,0.4);
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 60px;
+}
+
+.navbar-brand-custom {
+    font-size: 33px !important;
+    color: #aaea2a;
+}
+#brand-icon{
+    height: 36px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+
+#searchNavIcon {
+    display: inline-block;
+    position: relative;
+    left: 170px;
+    top: 1px;
+    width: 38px;
+    /* height: 9%; */
+    /* box-shadow: 2px 1px grey; */
+    border-radius: 360px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+#searchNavIconClicked {
+    box-shadow: 0px 0px white;
+}
+
+#searchbox {
+    display: inline-block;
+    position: relative;
+    left: 227px;
+    top: 1px;
+    width: 600px;
+    height: 40px;
+    border-radius: 60px;
+    font-weight: bold;
+    color: #aaea2a;
+}
+#searchbox:focus {
+    border: 1px solid #aaea2a !important;
+}
+
+.navbar-right-custom{
+    position: relative;
+    top: 4px;
+    left: -30px;
+    color: #aaea2a;
+}
+
+.dropdown-toggle-custom {
+    color: #aaea2a;
+}
+.dropdown-toggle-custom:hover {
+    color: #77a026;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
