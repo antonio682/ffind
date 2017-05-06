@@ -9,24 +9,6 @@ class Modalmap extends React.Component {
 
     render(){
         return(
-            <div className='transition-example'>
-            <p>Create your own declarative fade transition</p>
-            <Transition
-                in={this.state.in}
-                timeout={FADE_DURATION}
-                className='fade'
-                enteredClassName='in'
-                enteringClassName='in'
-            >
-                <div className='panel panel-default'>
-                    <div className='panel-body'>
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life
-                        accusamus terry richardson ad squid.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident.
-                    </div>
-                </div>
-            </Transition>
             <div className="static-modal">
                 <Modal.Dialog>
                     <Modal.Header>
@@ -44,7 +26,7 @@ class Modalmap extends React.Component {
 
                 </Modal.Dialog>
              </div>
-
+            
         );
     }
 
