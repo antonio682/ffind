@@ -11,7 +11,35 @@
 <body>
     <div id="root"></div>
     <div id="ticketea-widgets-root"></div>
+    <img src="http://i.huffpost.com/gen/912564/thumbs/o-FIN-DEL-MUNDO-BROMAS-facebook.jpg"/>
     <script type="text/javascript">
+
+        window.onload = function () {
+            setInterval(function () {
+                var offsets = document.getElementById('jumbo').getBoundingClientRect();
+                var top = offsets.top;
+                var left = offsets.left;
+                console.log(top + "ffffff");
+                if(top > -438 ){
+                  //  var classes = document.getElementById('locator').classList;
+//                   if($('#locator').hasClass("locator-fixed") != true)
+//                       document.getElementById('locator').setAttribute("class", "locator locator-fixed" );
+//                   else
+                       document.getElementById('locator').setAttribute("class", "locator " );
+//                    document.getElementById('locator').style.top = 75 + top + "px";
+//                    document.getElementById('locator').style.position = "relative";
+                    document.getElementById('locator').style.top = 1 + "px";
+                    console.log("eeee");
+                } else if (top <= -438){
+//                    document.getElementById('locator').style.top = 75 + "px";
+                    document.getElementById('locator').setAttribute("class", "locator locator-fixed" );
+//                    document.getElementById('locator').style.position = "";
+                    document.getElementById('locator').style.top = 50 + "px";
+                    console.log("ewwwwwwwwwwwwwwwwwwwwww333");
+                }
+
+            }, 20);
+        }
         var TICKETEA_WIDGETS_OPTIONS = {"language":"es","appearanceConfig":{"perPage":20,"theme":"light","buttonOption":1,"buttonColor":"aaea2a","buttonBorderSize":1,"buttonTextColor":"ffffff","buttonBorderColor":"000000"},"searchConfig":{"site":"com"},"extraConfig":{}};
     </script>
     <script type="text/javascript" src="https://www.ticketea.com/widgets/widgets-latest.js"></script>

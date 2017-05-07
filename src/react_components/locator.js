@@ -14,11 +14,10 @@ class Locator extends React.Component {
 
     render() {
         return(
-            <div className="locator">
+            <div  id="locator" className="locator">
                 <img className="locator-icon" src="../public/images/geo-icon.png"/>
                 <p className="locator-label" onClick={this.onHandleClick()}>Resultados en <bold>XXX</bold> KM</p>
-                <ModalMap sacar={this.onHandleClick()}/>
-
+                {/*<ModalMap sacar={this.onHandleClick()}/>*/}
             </div>
         );
     }

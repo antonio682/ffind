@@ -10,7 +10,7 @@ class Jumbo extends React.Component {
 
     render() {
         return(
-            <div className="jumbo-main">
+            <div id="jumbo" className="jumbo-main">
             </div>
         );
     }
